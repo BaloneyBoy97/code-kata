@@ -10,3 +10,7 @@ def fizz_buzz():
         else:
             results.append(str(i))
     return results
+
+# Run and print the results
+for result in fizz_buzz():
+    print(result)
